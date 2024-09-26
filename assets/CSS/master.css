@@ -1,0 +1,93 @@
+* {
+  padding: 0 !important;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+}
+
+.container {
+  background-color: #fff;
+  padding: 10px 30px !important;
+  /* - Stone 150: hsl(30, 18%, 87%)
+  - Stone 600: hsl(30, 10%, 34%)
+  - Stone 900: hsl(24, 5%, 18%)
+  
+  - Brown 800: hsl(14, 45%, 36%)
+  
+  - Rose 800: hsl(332, 51%, 32%)
+  - Rose 50: hsl(330, 100%, 98%); */
+}
+
+.timing {
+  background-color: hsl(330, 100%, 98%);
+  font-family: "Outfit", sans-serif;
+  list-style: none;
+}
+
+.Instructions,
+.Ingredients,
+.table {
+  font-family: "Outfit", sans-serif;
+}
+
+ul {
+  list-style: none;
+  list-style-position: outside;
+}
+.timing h3 {
+  color: hsl(311, 26%, 35%);
+}
+
+.timing li::before {
+  content: "\2022";
+  color: hsl(30, 10%, 34%);
+  font-size: 20px;
+}
+.Ingredients ul {
+  list-style: none;
+}
+
+.Ingredients ul li {
+  position: relative;
+}
+.Ingredients li::before {
+  content: "\2022";
+  color: hsl(14, 45%, 36%);
+  font-size: 20px;
+  position: absolute;
+  left: 0px;
+}
+
+.Ingredients ul {
+  list-style-position: outside;
+}
+
+.Instructions h3 {
+  color: hsl(14, 45%, 36%);
+}
+
+ol li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+.Instructions ol {
+  list-style-position: outside;
+}
+
+.table h3,
+.Ingredients h3 {
+  color: hsl(14, 45%, 36%);
+}
+
+.custom-letter-spacing {
+  letter-spacing: 1px;
+}
+
+tr .number {
+  color: hsl(14, 45%, 36%);
+}
